@@ -1,0 +1,30 @@
+:root 
+{
+    --c-666CA3:#666CA3;
+    --c-13183F: #13183F;
+    --c-83869A: #83869A;
+    --c-F74780: #F74780;
+    --c-FFA7C3: #FFA7C3;
+    --c-FFFFFF: #FFFFFF;
+    --g-1:  linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    --g-2: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%); 
+}
+
+body {
+    margin: 0;
+}
+
+* 
+{
+    box-sizing: border-box;
+}
+
+* :first-child 
+{
+    margin-top: 0;
+}
+
+* :last-child 
+{
+    margin-bottom: 0;
+}
