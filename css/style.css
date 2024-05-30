@@ -134,6 +134,10 @@ p {
     gap: 2.75em;
 }
 
+#hero__content {
+    max-width: 343px;
+}
+
 #hero__img-mobile 
 {
     display: block;
@@ -227,4 +231,73 @@ p {
 .btn--4 
 {
     background: var(--g-2);
+}
+
+
+@media (min-width:768px)
+{
+
+
+    #header 
+    {
+        background-image: url(../assets/image-hero-tablet@2x.png);
+        background-size: 40em;
+        background-repeat: no-repeat;
+        background-position: top -4em right -8em;
+        padding: 1.5em 5.2% 0;
+    }
+
+    #hero {
+        padding: 6.18em 0 5.75em;
+    }
+
+    #hero__content
+    {
+        max-width: 398px;
+    }
+
+    #hero__img-mobile {
+        display: none;
+    }
+
+    #main {
+        justify-content: space-between;
+        padding: 7.3em 5.2% 5.375em;
+    }
+
+    .main__box, #main__check-out{
+        padding: 3.5em 2em 2em;
+    }
+
+  
+
+
+
+
+    #footer {
+        background-color: var(--c-13183F);
+        padding: 2.25em 5.2%;
+    }
+}
+
+
+@media (min-width: 1440px)
+{
+    #header {
+        background-image: url(../assets/image-hero-desktop@2x.png);
+        background-size: 60em;
+        background-position: top -10em right -15em;
+        padding: 1.66em 11.4% 0;
+    }
+
+    #hero{
+        padding: 9.8em 0 10em;
+    }
+
+    #main {
+        padding: 3.88em 11.4% 7.7em;
+    }
+    #footer {
+        padding: 1.77em 11.4%;
+    }
 }
